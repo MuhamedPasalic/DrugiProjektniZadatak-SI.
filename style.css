@@ -1,0 +1,115 @@
+#first-link
+{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    font-family: " Camphor Pro VF,Camphor Pro,sans-serif";
+margin-left: 40%;
+ margin-top: 60%;
+}
+
+
+
+#offcanvasBody1 a:hover
+{
+    color: orange;
+}
+
+#second-link
+{
+
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    font-family: " Camphor Pro VF,Camphor Pro,sans-serif";
+margin-right: 40%;
+margin-left: 2%;
+ margin-top: 60%;
+}
+
+.photos {
+    display: block;
+  }
+
+  .photos ul {
+    list-style: none;
+
+  }
+
+  .photos ul li { 
+      display: inline;
+      list-style: none;
+      float: left;
+      padding: 0 10px 0 0;
+      text-align:center; 
+  }
+
+  .photos ul li span a:hover    {
+      background-color: #fff;
+  }
+
+  .photos ul li a {
+
+    display: block;
+    
+    margin-right: 10px;
+    margin-bottom: 7px;
+    opacity: 0.75;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .photos ul li a:hover {
+    opacity: 1.0;
+ 
+   
+  }
+
+  .photos ul li a img {
+    margin-left: 10%;
+  }     
+
+
+  
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+ 
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 12px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  } 
+
+  footer a 
+  {
+    text-decoration: none;
+    color: #555;
+  }
+
+    footer a:hover 
+  {
+    text-decoration:underline;
+    color: white
+  }
